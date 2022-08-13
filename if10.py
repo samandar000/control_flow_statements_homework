@@ -15,7 +15,7 @@ def main(temp):
     """
     if temp<0:
         return 'Freezing'
-    if temp>=1 and temp < 11:
+    if temp>=1 and temp < 10:
         return 'Very Cold '
     if temp> 10 and temp < 20:
        return 'Cold '
