@@ -14,7 +14,7 @@ def main(temp):
         string: the message to print
     """
     if temp<0:
-        return 'freezing'
+        return 'Freezing'
     if temp>=1 and temp < 11:
         return 'Very Cold '
     if temp> 10 and temp < 20:
